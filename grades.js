@@ -13,6 +13,8 @@ A score of 91-100 is an A */
 
 const scores = [82, 71, 62, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87, 60];
 
+// i understand each of the scores in the array has an index [i]. in plain english, i want to stop at each score above and see if it fits the definition of variable A, B, C, D, F. 
+
 const grades = { } // You'll need to change this line of code (not sure how to use this)
 
 for (let i = 0; i < scores.length; i++) {
@@ -60,14 +62,21 @@ console.log("Your grade is A");
     }
 }
 
-/* 
+// Use console.log() to output the following criteria to the browser console.
 
-Use console.log() to output the following criteria to the browser console.
+//How many of each grade? Accomplish this with a for..in loop.
 
-How many of each grade? Accomplish this with a for..in loop.
-What is the lowest score? Sort the array and find out.
-What is the highest score?
-Which grade had the most students achieve it? Use an if statment, and a currentGradeCount variable, in your for..in loop to see if the current grade's value is higher than the last one.
-Which grade had the fewest students achieve it?
+for () { }
 
-*/
+// What is the lowest score? Sort the array and find out.
+
+Math.min(82, 71, 62, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87, 60);
+
+// What is the highest score?
+
+Math.max(82, 71, 62, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87, 60);
+
+// Which grade had the most students achieve it? Use an if statment, and a currentGradeCount variable, in your for..in loop to see if the current grade's value is higher than the last one.
+
+// Which grade had the fewest students achieve it?
+
